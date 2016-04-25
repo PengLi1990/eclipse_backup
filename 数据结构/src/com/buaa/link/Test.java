@@ -1,0 +1,12 @@
+package com.buaa.link;
+
+public class Test {
+
+	public static void main(String[] args) {
+		LinkList ll = new LinkList();
+		ll.insert(10);
+		ll.insert(20);
+		
+	}
+
+}

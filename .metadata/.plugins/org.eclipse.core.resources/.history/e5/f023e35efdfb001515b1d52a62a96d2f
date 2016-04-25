@@ -1,0 +1,7 @@
+package com.buaa.link;
+
+public class LinkList {
+	//Í·½Úµã
+	Node first = new Node();
+
+}

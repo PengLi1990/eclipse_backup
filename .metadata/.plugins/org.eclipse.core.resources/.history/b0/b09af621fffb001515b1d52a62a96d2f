@@ -1,0 +1,10 @@
+package com.buaa.link;
+
+public class LinkList {
+	//头节点
+	Node first = new Node();
+	//添加节点
+	//删除节点
+	//查找节点
+
+}

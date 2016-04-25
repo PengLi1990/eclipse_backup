@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop     
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd   
+    http://www.springframework.org/schema/beans   
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+    http://www.springframework.org/schema/tx   
+    http://www.springframework.org/schema/tx/spring-tx.xsd"
+	xmlns:tx="http://www.springframework.org/schema/tx">
+
+<!-- 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> 
+		<property name="driverClassName"> 
+			<value>org.logicalcobwebs.proxool.ProxoolDriver</value> 
+		</property> 
+		<property name="url"> <value>proxool.shopping</value> </property> 
+		</bean>  -->
+	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName">
+			<!-- <value>mysql_shopping</value> -->
+			<value>java:comp/env/jdbc/mysql</value>
+		</property>
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+
+		<property name="annotatedClasses">
+			<list>
+				<value>com.company.shopping.bean.User</value>
+				<value>com.company.shopping.bean.Role</value>
+				<value>com.company.shopping.bean.Goods</value>
+				<value>com.company.shopping.bean.GType</value>
+				<value>com.company.shopping.bean.ShopCar</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- userDao -->
+	<bean id="userDao" class="com.company.shopping.dao.impl.UserDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<!-- goodsDao -->
+	<bean id="goodsDao" class="com.company.shopping.dao.impl.GoodsDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="gtDao" class="com.company.shopping.dao.impl.TypeDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<bean id="carDao" class="com.company.shopping.dao.impl.CarDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- userService -->
+	<bean id="userService" class="com.company.shopping.service.impl.UserServiceImpl">
+		<property name="userDao" ref="userDao" />
+	</bean>
+
+	<!-- goodsService -->
+	<bean id="goodsService" class="com.company.shopping.service.impl.GoodsServiceImpl">
+		<property name="goodsDao" ref="goodsDao" />
+	</bean>
+	<bean id="gtService" class="com.company.shopping.service.impl.GTServiceImpl">
+		<property name="typeDao" ref="gtDao" />
+	</bean>
+	
+	<bean id="carService" class="com.company.shopping.service.impl.CarServiceImpl">
+		<property name="carDao" ref="carDao" />
+	</bean>
+
+	<!-- 用户控制器 start -->
+	<!-- 首页控制器 -->
+	<bean id="indexAction" class="com.company.shopping.action.IndexAction">
+		<property name="goodsService" ref="goodsService" /> 
+		<property name="gtService" ref="gtService" />
+		<property name="carService" ref="carService" />
+	</bean>
+	
+	<bean id="userAction" class="com.company.shopping.action.UserAction">
+		<property name="userService" ref="userService" />
+	</bean>
+	
+	<bean id="gtypeAction" class="com.company.shopping.action.GtypeAction">
+		<property name="gtService" ref="gtService" />
+	</bean>
+	
+	<bean id="goodsAction" class="com.company.shopping.action.GoodsAction">
+		<property name="goodsService" ref="goodsService" />
+		<property name="gtService" ref="gtService" />
+	</bean>
+	<!-- 用户控制器 end -->
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<!-- 配置事务传播特性 -->
+	<tx:advice id="TestAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="save*" propagation="REQUIRED" />
+			<tx:method name="del*" propagation="REQUIRED" />
+			<tx:method name="update*" propagation="REQUIRED" />
+			<tx:method name="add*" propagation="REQUIRED" />
+			<tx:method name="find*" propagation="REQUIRED" />
+			<tx:method name="get*" propagation="REQUIRED" />
+			<tx:method name="apply*" propagation="REQUIRED" />
+			<tx:method name="insert*" propagation="REQUIRED" />
+		</tx:attributes>
+	</tx:advice>
+	
+	<!-- 配置参与事务的类 -->
+	<aop:config>
+		<aop:pointcut id="gbookServiceMethod"
+			expression="execution(* com.company.shopping.service.impl.*.*(..))" />
+		<aop:advisor pointcut-ref="gbookServiceMethod" advice-ref="TestAdvice" />
+	</aop:config>
+
+</beans>

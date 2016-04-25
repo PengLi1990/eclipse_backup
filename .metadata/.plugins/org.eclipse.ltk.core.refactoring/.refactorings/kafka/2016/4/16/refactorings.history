@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.buaa.kafka.Producer&apos; to &apos;ProducerDemo&apos;&#x0D;&#x0A;- Original project: &apos;kafka&apos;&#x0D;&#x0A;- Original element: &apos;com.buaa.kafka.Producer&apos;&#x0D;&#x0A;- Renamed element: &apos;com.buaa.kafka.ProducerDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Producer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.buaa.kafka{Producer.java[Producer" matchStrategy="1" name="ProducerDemo" qualified="false" references="true" similarDeclarations="false" stamp="1460527526932" textual="false" version="1.0"/>
+</session>

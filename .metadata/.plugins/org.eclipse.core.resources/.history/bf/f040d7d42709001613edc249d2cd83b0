@@ -1,0 +1,13 @@
+package com.buaa.hadoop1;
+/**
+ * qq好友推荐
+ * @author 李鹏
+ * @time 2016年4月23日下午3:39:09
+ */
+public class QqRecommend {
+
+	public static void main(String[] args) {
+
+	}
+
+}

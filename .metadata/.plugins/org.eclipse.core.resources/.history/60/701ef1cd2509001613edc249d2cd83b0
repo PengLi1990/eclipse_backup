@@ -1,0 +1,17 @@
+package com.buaa.hadoop1;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class QqReducer extends Reducer<LongWritable, Text, Text, Text> {
+	//map之后数据已按key分好组了
+	@Override
+	protected void reduce(LongWritable key, Iterable<Text> itrator, Context context)
+			throws IOException, InterruptedException {
+		
+		
+	}
+}

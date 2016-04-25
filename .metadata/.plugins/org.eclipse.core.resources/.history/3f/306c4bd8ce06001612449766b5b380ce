@@ -1,0 +1,7 @@
+package com.buaa.hadoop1;
+
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class QqMapper extends Mapper<KEYIN, VALUEIN, KEYOUT, VALUEOUT> {
+
+}

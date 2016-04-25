@@ -1,0 +1,20 @@
+package com.buaa.hadoop1;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+/*
+ * qqºÃÓÑÍÆ¼ö
+ */
+public class QqMapper extends Mapper<Text, Text, Text, LongWritable> {
+	
+	@Override
+	protected void map(Text key, Text value, Mapper<Text, Text, Text, LongWritable>.Context context)
+			throws IOException, InterruptedException {
+		
+		super.map(key, value, context);
+	}
+
+}

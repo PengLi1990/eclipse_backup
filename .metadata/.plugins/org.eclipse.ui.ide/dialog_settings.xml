@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="172" key="DIALOG_Y_ORIGIN"/>
+		<item value="200" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\video\weekend110-第7天\storm-kafka"/>
+			<item value="G:\backup\shopping"/>
+			<item value="F:\video\weekend110-第8天\weekend110"/>
+			<item value="I:\源码\shopping"/>
+			<item value="I:\shopping"/>
+			<item value="H:\聂小倩\代码\www\02"/>
+			<item value="H:\聂小倩\代码\workspace01"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

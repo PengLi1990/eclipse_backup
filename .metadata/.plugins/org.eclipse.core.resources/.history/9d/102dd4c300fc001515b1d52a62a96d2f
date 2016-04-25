@@ -1,0 +1,31 @@
+package com.buaa.link;
+
+public class LinkList {
+	Node first;
+	public LinkList(){
+		//头节点
+		first = new Node();
+		first.next = null;
+	}
+	
+	
+	//添加节点
+	public void insert(int value){
+		Node node = new Node();
+		node.data = value;
+		node = first.next;
+	}
+	
+	//删除节点
+	public void remove(int value){
+		
+	}
+	//查找节点
+	//打印节点
+	public void display(){
+		while(first.next != null){
+			
+		}
+	}
+
+}

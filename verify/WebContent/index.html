@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script>
+function getXmlHttp(){
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	  {// code for IE7+, Firefox, Chrome, Opera, Safari
+	  xmlhttp=new XMLHttpRequest();
+	  }
+	else
+	  {// code for IE6, IE5
+	  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	return xmlhttp;
+}
+
+	window.onload=function(){
+		var oBtn = document.getElementById("btn");
+		var oSpan = document.getElementById("txt");
+		var oXml = getXmlHttp();
+		
+		oXml.onreadystatechange=function()
+		  {
+		  if (oXml.readyState==4 && oXml.status==200)
+		    {
+		    	document.getElementById("txt").innerHTML=oXml.responseText;
+		    }
+		  }
+		
+		oBtn.onclick=function(){
+			//window.location.href="ajax.do";
+			oXml.open("Get","1.txt",true);
+			oXml.send();
+			
+		}
+	}
+</script>
+
+</head>
+<body>
+<button id="btn">按钮</button>
+<br/>
+<span id="txt"></span>
+</body>
+</html>

@@ -1,0 +1,80 @@
+package com.buaa.hadoop1.score;
+
+import java.io.IOException;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.InputSplit;
+import org.apache.hadoop.mapreduce.JobContext;
+import org.apache.hadoop.mapreduce.RecordReader;
+import org.apache.hadoop.mapreduce.TaskAttemptContext;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+
+import com.google.common.io.LineReader;
+
+ /**
+  * 自定义学生成绩读写InputFormat
+  * 数据格式参考：19020090017 小讲 90 99 100 89 95
+  * @author 李鹏
+  * @time 2016年4月25日下午2:58:39
+  */
+public class ScoreInputFormat extends FileInputFormat<Text, ScoreWritable> {
+
+	
+	@Override
+	protected boolean isSplitable(JobContext context, Path filename) {
+		
+		return false;
+	}
+
+	@Override
+	public RecordReader<Text, ScoreWritable> createRecordReader(InputSplit arg0, TaskAttemptContext arg1)
+			throws IOException, InterruptedException {
+		
+		return new ScoreRecordReader();
+	}
+	
+	 //RecordReader 中的两个参数分别填写我们期望返回的key/value类型，我们期望key为Text类型，
+	 //value为ScoreWritable类型封装学生所有成绩
+	public static class ScoreRecordReader extends RecordReader<Text, ScoreWritable>{
+
+		public LineReader in;//行读取器
+		public Text lineKey;//自定义key类型
+		public ScoreWritable value;//自定义value类型
+		public Text line;//每行数据类型
+		
+		@Override
+		public void close() throws IOException {
+		}
+
+		@Override
+		public Text getCurrentKey() throws IOException, InterruptedException {
+			
+			return null;
+		}
+
+		@Override
+		public ScoreWritable getCurrentValue() throws IOException, InterruptedException {
+			
+			return null;
+		}
+
+		@Override
+		public float getProgress() throws IOException, InterruptedException {
+			
+			return 0;
+		}
+
+		@Override
+		public void initialize(InputSplit arg0, TaskAttemptContext arg1) throws IOException, InterruptedException {
+		}
+
+		@Override
+		public boolean nextKeyValue() throws IOException, InterruptedException {
+			
+			return false;
+		}
+		
+	}
+
+}

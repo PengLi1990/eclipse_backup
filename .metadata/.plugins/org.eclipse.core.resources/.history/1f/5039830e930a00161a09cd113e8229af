@@ -1,0 +1,5 @@
+package com.buaa.score.domain;
+
+public class Score {
+
+}

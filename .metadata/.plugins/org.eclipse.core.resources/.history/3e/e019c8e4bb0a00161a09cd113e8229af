@@ -1,0 +1,25 @@
+package com.buaa.hadoop1.score;
+
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.util.Tool;
+/**
+ * 成绩统计类
+ * @author 李鹏
+ * @time 2016年4月25日下午3:48:09
+ */
+public class ScoreCount extends Configured implements Tool {
+	/*
+	 * 
+	 */
+
+	@Override
+	public int run(String[] args) throws Exception {
+
+		return 0;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

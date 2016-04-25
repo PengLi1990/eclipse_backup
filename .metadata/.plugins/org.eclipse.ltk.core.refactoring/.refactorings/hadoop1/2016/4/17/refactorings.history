@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.buaa.hadoop1&apos; to &apos;com.buaa.hadoop1.qq&apos;&#x0D;&#x0A;- Original project: &apos;hadoop1&apos;&#x0D;&#x0A;- Original element: &apos;hadoop1/src/com.buaa.hadoop1&apos;&#x0D;&#x0A;- Renamed element: &apos;hadoop1/src/com.buaa.hadoop1.qq&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.buaa.hadoop1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.buaa.hadoop1" name="com.buaa.hadoop1.qq" qualified="false" references="true" stamp="1461398164578" textual="false" version="1.0"/>
+</session>
