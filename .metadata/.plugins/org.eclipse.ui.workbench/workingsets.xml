@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1450608099218_2" label="大数据专区" name="大数据专区">
-<item elementID="=hadoop1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=storm-kafka" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hadoop1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=kafka" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=storm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

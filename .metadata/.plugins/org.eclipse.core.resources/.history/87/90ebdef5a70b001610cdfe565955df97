@@ -1,0 +1,109 @@
+package com.buaa.hadoop1.contactor;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.JobConf;
+import org.apache.hadoop.mapred.RecordWriter;
+import org.apache.hadoop.mapred.lib.MultipleOutputFormat;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.output.MapFileOutputFormat;
+import org.apache.hadoop.util.Progressable;
+import org.apache.hadoop.util.Tool;
+import org.mortbay.log.Log;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/*
+ * 
+ */
+public class ExcelContactorCount extends Configured implements Tool{
+	private Logger logger = LoggerFactory.getLogger(ExcelContactorCount.class);
+	
+	/*
+	 * Mapper的任务是啥????????????????
+	 */
+	public static class ContactorMapper extends Mapper<LongWritable,Text,Text,Text>{
+		private Logger logger = LoggerFactory.getLogger(ContactorMapper.class);
+		//定义输出的键值对
+		private Text pkey;
+		private Text pvalue;
+		
+		//处理读入的每一行
+		protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+			//10, 老爸, 13999123786, 2014-12-20
+			String line = value.toString();
+			String[] records = line.split("\\s+");
+			String[] months = records[3].split("-");
+			
+			pkey.set(records[1] + "\t" + months[1]); 
+			pvalue.set(records[2]);
+			
+			context.write(pkey, pvalue);
+			Log.info("well done");
+		}
+	}
+	
+	/******************************
+	 * Mapper到Reducer之间要经过啥程序呢？
+	 *
+	 * 
+	 */
+
+	/*
+	 * Reducer的任务是啥？？？？？？？？？？？
+	 */
+	public static class ContactorReducer extends Reducer<Text,Text,Text,Text>{
+		private Text pvalue = new Text();
+		//此时的values里有啥
+		@Override
+		protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+			int sum = 0;
+			Text outKey = values.iterator().next();
+			for(Text t : values){
+				sum++;
+			}
+			pvalue.set(outKey + "\t" + sum);
+			context.write(key, pvalue);
+		}
+	}
+	
+	/*
+	 * 自定义多文件输出格式类
+	 * 为什么？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+	 */
+	public static class PhoneOutputFormat extends MultipleOutputFormat< Text, Text>{
+
+		@Override
+		protected RecordWriter<Text, Text> getBaseRecordWriter(FileSystem fs, JobConf job, String name,
+				Progressable arg3) throws IOException {
+			
+			return null;
+		}
+
+		@Override
+		protected String generateFileNameForKeyValue(Text key, Text value, Configuration conf) {
+			String[] records = key.toString().split("\t");
+			return records[1] + ".txt";
+			
+		}
+
+		
+		
+	}
+
+	@Override
+	public int run(String[] args) throws Exception {
+		
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,31 @@
+package com.buaa.hadoop1.contactor;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+/*
+ * excel解析
+ */
+public class ExcelParser {
+	private static final Log LOG = LogFactory.getLog(ExcelParser.class);
+	private StringBuilder currentStream = null;
+	private Long bytesRead = 0l;
+	
+	//定义解析excel方法
+	public String parseExcelData(InputStream in){
+		try {
+			HSSFWorkbook wbook = new HSSFWorkbook(in);
+			HSSFSheet sheet = wbook.getSheetAt(0);//得到第一个sheet
+			
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+}
