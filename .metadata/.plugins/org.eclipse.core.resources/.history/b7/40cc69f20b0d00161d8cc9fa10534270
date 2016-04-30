@@ -1,0 +1,7 @@
+package com.buaa.hadoop1.weibo;
+
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+
+public class WeiboInputFormat extends FileInputFormat<K, V> {
+
+}

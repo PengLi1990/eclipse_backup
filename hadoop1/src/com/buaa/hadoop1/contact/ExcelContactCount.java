@@ -6,13 +6,11 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hadoop.mapreduce.Reducer.Context;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
@@ -36,13 +34,12 @@ public class ExcelContactCount extends Configured implements Tool {
 		 */
 		public void map(LongWritable key, Text value, Context context)
 				throws InterruptedException, IOException {
-			//1.0, 鑰佺埜, 13999123786, 2014-12-20
+			//1.0, 閼颁胶鍩� 13999123786, 2014-12-20
 			String line = value.toString();
 			String[] records = line.split("\\s+");
-			String[] months = records[3].split("-");//鑾峰彇鏈堜唤
-			pkey.set(records[1] + "\t" + months[1]);//鏄电О+鏈堜唤
-			pvalue.set(records[2]);//鎵嬫満鍙�
-			context.write(pkey, pvalue);
+			String[] months = records[3].split("-");//閼惧嘲褰囬張鍫滃敜
+			pkey.set(records[1] + "\t" + months[1]);//閺勭數袨+閺堝牅鍞�
+			pvalue.set(records[2]);//閹靛婧�崣锟�			context.write(pkey, pvalue);
 			LOG.info("Map processing finished");
 		}
 	}
@@ -77,9 +74,9 @@ public class ExcelContactCount extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		Configuration conf = new Configuration();// 閰嶇疆鏂囦欢瀵硅薄
+		Configuration conf = new Configuration();// 闁板秶鐤嗛弬鍥︽鐎电钖�
 		Path mypath = new Path(args[1]);
-		FileSystem hdfs = mypath.getFileSystem(conf);// 鍒涘缓杈撳嚭璺緞
+		FileSystem hdfs = mypath.getFileSystem(conf);// 閸掓稑缂撴潏鎾冲毉鐠侯垰绶�
 		if (hdfs.isDirectory(mypath)) {
 			hdfs.delete(mypath, true);
 		}
@@ -91,13 +88,11 @@ public class ExcelContactCount extends Configured implements Tool {
 		job.setMapperClass(ExcelMapper.class);
 		job.setMapOutputKeyClass(Text.class);
 		job.setMapOutputValueClass(Text.class);
-		job.setInputFormatClass(ExcelInputFormat.class);//鑷畾涔夎緭鍏ユ牸寮�
-		
+		job.setInputFormatClass(ExcelInputFormat.class);//閼奉亜鐣炬稊澶庣翻閸忋儲鐗稿锟�		
 		job.setReducerClass(PhoneReducer.class);
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(Text.class);
-		job.setOutputFormatClass(PhoneOutputFormat.class);//鑷畾涔夎緭鍑烘牸寮�
-
+		job.setOutputFormatClass(PhoneOutputFormat.class);//閼奉亜鐣炬稊澶庣翻閸戠儤鐗稿锟�
 		FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		job.waitForCompletion(true);
@@ -105,8 +100,8 @@ public class ExcelContactCount extends Configured implements Tool {
 	}
 
 	public static void main(String[] args) throws Exception {
-		String[] args0 = { "hdfs://single.hadoop.dajiangtai.com:9000/junior/phone.xls",
-				"hdfs://single.hadoop.dajiangtai.com:9000/junior/phone-out/" };
+		String[] args0 = { "hdfs://lp1:9000/contact/phone.xls",
+				"hdfs://lp1:9000/contact/phone-out/" };
 		int ec = ToolRunner.run(new Configuration(), new ExcelContactCount(), args0);
 		System.exit(ec);
 	}

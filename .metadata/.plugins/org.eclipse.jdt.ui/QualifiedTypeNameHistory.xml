@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="com.buaa.singleton.Singleton"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="kafka.javaapi.producer.Producer"/>
 <fullyQualifiedTypeName name="kafka.producer.KeyedMessage"/>
 <fullyQualifiedTypeName name="kafka.consumer.ConsumerConnector"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
@@ -33,7 +28,6 @@
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
 <fullyQualifiedTypeName name="com.buaa.hadoop1.contactor.ExcelIputFormat"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileSplit"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.fs.FSDataInputStream"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.RecordWriter"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.TaskAttemptContext"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.beans.Statement"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 </qualifiedTypeNameHistroy>

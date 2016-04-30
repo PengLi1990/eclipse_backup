@@ -51,8 +51,9 @@ public class ExcelContactorCount extends Configured implements Tool{
 	
 	/******************************
 	 * Mapper到Reducer之间要经过啥程序呢？
-	 *
-	 * 
+	 *	第一步：map。读取输入文件内容，解析成key、value对。对输入文件的每一行，解析成key、value对。
+	 * 	第二步：combine。对相同的key合并。
+	 *	第三步：reduce。对相同的邮箱域统计求和。
 	 */
 
 	/*
@@ -60,7 +61,7 @@ public class ExcelContactorCount extends Configured implements Tool{
 	 */
 	public static class ContactorReducer extends Reducer<Text,Text,Text,Text>{
 		private Text pvalue = new Text();
-		//此时的values里有啥
+		//此时的values里有啥    Map 端输出的 Value 集合（相同 Key 的集合）。
 		@Override
 		protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
 			int sum = 0;

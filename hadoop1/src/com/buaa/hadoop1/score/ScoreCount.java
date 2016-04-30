@@ -81,7 +81,7 @@ public class ScoreCount extends Configured implements Tool {
 //		job.setOutputKeyClass(Text.class);
 //		job.setOutputValueClass(ScoreWritable.class);
 		job.setInputFormatClass(ScoreInputFormat.class);
-		
+		//ScoreInputFormat.setInputPaths(job, inputPaths);
 		job.waitForCompletion(true);
 		return 0;
 	}

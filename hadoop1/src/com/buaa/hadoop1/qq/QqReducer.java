@@ -10,16 +10,24 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 public class QqReducer extends Reducer<LongWritable, Text, Text, Text> {
-	//map֮�������Ѱ�key�ֺ�����
+	//map之后数据已按key分好组了
+	/*
+	 * 一个继承 Reducer 的静态类 ReduceClass： 
+		该类实现了 reduce(Text key, Iterable< Text> values, Context context) 方法，reduce 方法包含三个参数：
+        Text key：Map 端输出的 Key 值。
+        Iterable< Text> values：Map 端输出的 Value 集合（相同 Key 的集合）。
+        Context context：Reduce 端的上下文。
+		reduce 方法的主要功能就是获取 map 方法的 key-value 结果，相同的 Key 发送到同一个 reduce 里处理，然后迭代 Key，把 Value 相加，结果写到 HDFS 系统里面。
+	 */
 	@Override
 	protected void reduce(LongWritable key, Iterable<Text> itrator, Context context)
 			throws IOException, InterruptedException {
 		Set<String> set = new HashSet<String>();
-		for(Text i : itrator){//itrator��װ����Text
+		for(Text i : itrator){//itrator里装的是Text
 			set.add(i.toString());
 		}
 		
-		//��ѿ�����
+		//算笛卡尔积
 		if(set.size() > 1){
 			Iterator<String> i = set.iterator();
 			while(i.hasNext()){

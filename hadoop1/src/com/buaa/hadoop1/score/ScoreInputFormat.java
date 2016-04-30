@@ -28,6 +28,7 @@ import org.apache.hadoop.util.LineReader;
 public class ScoreInputFormat extends FileInputFormat<Text, ScoreWritable> {
 
 	// getSplits(JobContext context) 方法负责将一个大数据逻辑分成许多片。
+	//此文件要不要拆分？根据需求来写。默认为true，即要拆！
 	@Override
 	protected boolean isSplitable(JobContext context, Path filename) {
 		return false;

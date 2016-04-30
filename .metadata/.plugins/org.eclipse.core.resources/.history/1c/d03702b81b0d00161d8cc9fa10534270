@@ -1,0 +1,67 @@
+package com.buaa.hadoop1.weibo;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
+import org.apache.hadoop.util.Tool;
+
+public class WeiboCount extends Configured implements Tool {
+	
+	/*
+	 * Map阶段
+	 */
+	public static class WeiboMapper extends Mapper<Text,WeiboWritable,Text,Text>{
+		@Override
+		protected void map(Text key, WeiboWritable value, Context context)
+				throws IOException, InterruptedException {
+			context.write(new Text("fans"), new Text(key.toString() + "\t" + value.getFans()));
+			context.write(new Text("followers"), new Text(key.toString() + "\t" + value.getFollowers()));
+			context.write(new Text("status"), new Text(key.toString() + "\t" + value.getStatus()));
+			
+		}
+	}
+
+	/*
+	 * Reduce阶段
+	 */
+	public static class WeiboReducer extends Reducer<Text,Text,Text,IntWritable>{
+		private MultipleOutputs<Text, IntWritable> mos;
+		private Text text = new Text();
+		
+		@Override
+		protected void setup(Context context)
+				throws IOException, InterruptedException {
+			mos = new MultipleOutputs<Text, IntWritable>(context);
+		}
+		
+		@Override
+		protected void reduce(Text key, Iterable<Text> values, Context context)
+				throws IOException, InterruptedException {
+			int N = context.getConfiguration().getInt("reduceHasMaxLength", Integer.MAX_VALUE);
+			Map<String,Integer> m = new HashMap<String,Integer>();
+			
+		}
+		
+		@Override
+		protected void cleanup(Reducer<Text, Text, Text, IntWritable>.Context context)
+				throws IOException, InterruptedException {
+			mos.close();
+		}
+	}
+	@Override
+	public int run(String[] args) throws Exception {
+
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		
+	}
+}

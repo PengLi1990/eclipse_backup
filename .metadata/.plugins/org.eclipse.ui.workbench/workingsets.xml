@@ -7,6 +7,7 @@
 <item elementID="=kafka" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=storm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hbase" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hive1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458005117871_3" label="java" name="java">
 <item elementID="=算法" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

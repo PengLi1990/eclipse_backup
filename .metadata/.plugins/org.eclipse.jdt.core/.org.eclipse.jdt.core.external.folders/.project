@@ -29,5 +29,10 @@
 			<type>2</type>
 			<location>F:/hadoop/kafka-0.9.0.1-src</location>
 		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>F:/hadoop/apache-hive-2.0.0-src</location>
+		</link>
 	</linkedResources>
 </projectDescription>

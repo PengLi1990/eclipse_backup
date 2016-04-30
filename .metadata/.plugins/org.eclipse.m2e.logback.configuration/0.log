@@ -217,3 +217,11 @@
 2016-04-25 08:46:58,891 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\main\resources
 2016-04-25 08:46:58,893 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-04-25 08:46:58,893 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\test\resources
+2016-04-28 14:29:38,412 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-28 14:29:38,414 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\main\resources
+2016-04-28 14:29:38,416 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-28 14:29:38,416 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\test\resources
+2016-04-29 16:41:35,117 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 16:41:35,119 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\main\resources
+2016-04-29 16:41:35,121 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-29 16:41:35,121 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\test\resources

@@ -47,10 +47,10 @@ extends FileOutputFormat<K, V>{
     protected abstract String generateFileNameForKeyValue(K key, V value, Configuration conf); 
     
     public class MultiRecordWriter extends RecordWriter<K, V> {  
-        /**RecordWriter的缓�?/  
+         
         private HashMap<String, RecordWriter<K, V>> recordWriters = null;  
         private TaskAttemptContext job = null;  
-        /**输出目录*/  
+        
         private Path workPath = null;  
         public MultiRecordWriter(TaskAttemptContext job, Path workPath) {  
             super();  

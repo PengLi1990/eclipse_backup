@@ -1,7 +1,0 @@
-package com.buaa.hadoop1;
-
-import org.apache.hadoop.mapreduce.Reducer;
-
-public class QqReducer extends Reducer<KEYIN, VALUEIN, KEYOUT, VALUEOUT> {
-
-}

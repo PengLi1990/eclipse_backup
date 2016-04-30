@@ -1,0 +1,114 @@
+package com.buaa.hadoop1.weibo;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataInputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.InputSplit;
+import org.apache.hadoop.mapreduce.RecordReader;
+import org.apache.hadoop.mapreduce.TaskAttemptContext;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.FileSplit;
+import org.apache.hadoop.util.LineReader;
+/**
+ * 自定义输入格式
+ * @author 李鹏
+ * @time 2016年4月28日下午2:46:10
+ */
+public class WeiboInputFormat extends FileInputFormat<Text, WeiboWritable> {
+
+	/*
+	 * 负责把数据切分成键值对，然后传递给Mapper
+	 */
+	@Override
+	public RecordReader<Text, WeiboWritable> createRecordReader(InputSplit split, TaskAttemptContext context)
+			throws IOException, InterruptedException {
+		//这里默认是系统实现的的RecordReader，按行读取，下面我们自定义这个类WeiboRecordReader。
+		return new WeiboRecordReader();
+	}
+
+	/*
+	 * 自定义RecordReader
+	 * RecordReader 中的两个参数分别填写我们期望返回的key/value类型，我们期望key为Text类型，
+	 */
+	public static class WeiboRecordReader extends RecordReader<Text, WeiboWritable>{
+		public LineReader in;//行读取器
+		public Text lineKey;//自定义key类型
+		public WeiboWritable lineValue;//自定义value类型
+		public Text line;//每行数据类型
+
+		/*
+		 * 初始化
+		 * InputSplit represents the data to be processed by an individual Mapper
+		 */
+		@Override
+		public void initialize(InputSplit split, TaskAttemptContext context) throws IOException, InterruptedException {
+			Configuration job = context.getConfiguration();//得到任务
+			
+			//获取文件,split就是块文件
+			FileSplit fs = (FileSplit)split;//得到split
+			Path file = fs.getPath();//得到文件
+			
+			//打开文件
+			FileSystem fileSystem = file.getFileSystem(job);//分布式文件系统
+			FSDataInputStream is = fileSystem.open(file);
+			
+			//读取文件，并传送下去
+			//初始化参数
+			in = new LineReader(is, job);
+			line = new Text();//每行数据类型
+			lineKey = new Text();
+			lineValue = new WeiboWritable();
+		}
+
+		/*
+		 * 读取每行数据
+		 * 完成自定义的key和value
+		 */
+		@Override
+		public boolean nextKeyValue() throws IOException, InterruptedException {
+			//先读一行看看
+			int lineSize = in.readLine(line);//line用上了吧。 
+			
+			if(lineSize == 0){
+				return false;
+			}
+			//正则表达式： /s 匹配任何不可见字符，包括空格、制表符、换页符等等；  + 匹配前面的子表达式一次或多次(大于等于1次）
+			String[] pieces = line.toString().split("\\s+");//s+ 表示
+			return false;
+		}
+
+		@Override
+		public Text getCurrentKey() throws IOException, InterruptedException {
+			
+			return lineKey;
+		}
+
+		@Override
+		public WeiboWritable getCurrentValue() throws IOException, InterruptedException {
+			
+			return lineValue;
+		}
+
+		@Override
+		public float getProgress() throws IOException, InterruptedException {
+			
+			return 0;
+		}
+
+		/*
+		 * 关闭流
+		 */
+		@Override
+		public void close() throws IOException {
+			if(in != null){
+				in.close();
+			}
+		}
+		
+	}
+
+}

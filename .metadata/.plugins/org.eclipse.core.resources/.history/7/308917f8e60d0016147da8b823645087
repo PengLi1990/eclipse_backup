@@ -1,0 +1,9 @@
+package com.buaa.jdbc;
+/**
+ * jdbc连接
+ * @author 李鹏
+ * @time 2016年4月29日下午4:42:00
+ */
+public class JdbcClient {
+
+}

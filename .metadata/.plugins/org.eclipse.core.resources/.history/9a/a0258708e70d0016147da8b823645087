@@ -1,0 +1,25 @@
+package com.buaa.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+/**
+ * jdbc连接
+ * @author 李鹏
+ * @time 2016年4月29日下午4:42:00
+ */
+public class JdbcClient {
+	private static String driverName = "org.apache.hive.jdbc.HiveDriver";
+	
+	public static void main(String[] args) throws SQLException {
+		try {
+			Class.forName(driverName);
+		} catch (ClassNotFoundException e) {
+			
+			e.printStackTrace();
+		}
+		Connection conn = DriverManager.getConnection("jdbc:hive://djt11:10000/default", "hadoop", "");
+	}
+
+}

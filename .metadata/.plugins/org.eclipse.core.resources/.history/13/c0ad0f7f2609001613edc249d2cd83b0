@@ -1,9 +1,0 @@
-package com.buaa.hadoop1;
-
-public class QqRecommend {
-
-	public static void main(String[] args) {
-
-	}
-
-}
