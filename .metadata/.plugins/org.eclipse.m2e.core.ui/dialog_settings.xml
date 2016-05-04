@@ -11,6 +11,18 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="issueManagementUrl">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 		</list>
@@ -25,13 +37,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
-			<item value="com.buaa.maven"/>
+			<item value="com.buaa"/>
 		</list>
 		<list key="package">
-			<item value="com.buaa.maven.test_mvn"/>
+			<item value="com.buaa.log"/>
+			<item value="com.buaa.wc"/>
 		</list>
 		<list key="artifactId">
-			<item value="test_mvn"/>
+			<item value="log"/>
+			<item value="wc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

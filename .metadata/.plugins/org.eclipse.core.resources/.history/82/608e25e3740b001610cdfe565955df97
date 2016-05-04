@@ -1,7 +1,0 @@
-package com.buaa.hadoop1.contactor;
-
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-
-public class ExcelIputFormat extends FileInputFormat<K, V> {
-
-}

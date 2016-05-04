@@ -1,7 +1,0 @@
-package com.buaa.hadoop1.filecombiner;
-
-import sun.dc.pr.PathFiller;
-
-public class RegexExcludePathFilter extends PathFiller {
-
-}

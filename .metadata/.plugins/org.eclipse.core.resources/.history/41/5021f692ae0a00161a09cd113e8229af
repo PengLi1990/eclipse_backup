@@ -1,5 +1,0 @@
-package com.buaa.score.domain;
-
-public class Score {
-	private String num;//Ñ§ºÅ
-}

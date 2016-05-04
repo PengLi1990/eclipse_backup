@@ -1,0 +1,10 @@
+package com.buaa.testmvn;
+
+public class TestSay {
+	@Test
+	public void test(){
+		HelloWorld hw = new HelloWorld();
+		hw.say("wh");
+	}
+
+}

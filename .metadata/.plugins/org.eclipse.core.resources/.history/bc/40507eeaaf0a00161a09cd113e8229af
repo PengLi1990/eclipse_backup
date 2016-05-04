@@ -1,7 +1,0 @@
-package com.buaa.hadoop1.score;
-
-import org.apache.hadoop.io.WritableComparator;
-
-public class ScoreWritable extends WritableComparable {
-	
-}

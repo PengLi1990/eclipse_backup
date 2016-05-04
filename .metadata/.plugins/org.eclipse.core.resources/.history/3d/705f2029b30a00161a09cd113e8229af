@@ -1,7 +1,0 @@
-package com.buaa.hadoop1.score;
-
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-
-public class ScoreInputFormat extends FileInputFormat<K, V> {
-
-}

@@ -1,5 +1,0 @@
-package com.buaa.hadoop1.contactor;
-
-public class MailRecordWriter {
-
-}

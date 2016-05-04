@@ -1,8 +1,0 @@
-eclipse.preferences.version=1
-encoding//src/com/buaa/hadoop1/contact/ExcelContactCount.java=UTF-8
-encoding//src/com/buaa/hadoop1/contact/ExcelInputFormat.java=UTF-8
-encoding//src/com/buaa/hadoop1/contact/MailRecordWriter.java=UTF-8
-encoding//src/com/buaa/hadoop1/contactor=UTF-8
-encoding//src/com/buaa/hadoop1/contactor/ExcelContactorCount.java=UTF-8
-encoding//src/com/buaa/hadoop1/contactor/ExcelParser.java=GBK
-encoding//src/com/buaa/hadoop1/score/ScoreInputFormat.java=UTF-8

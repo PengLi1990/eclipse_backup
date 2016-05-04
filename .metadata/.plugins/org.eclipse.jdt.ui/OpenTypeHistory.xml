@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=Thread/D:\/jdk1.7\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1447836569977"/>
 <typeInfo handle="=storm/lib\/storm-core-0.9.2-incubating.jar&lt;backtype.storm.topology.base(BaseRichSpout.class[BaseRichSpout" modifiers="1057" timestamp="1460293171391"/>
 <typeInfo handle="=storm/lib\/storm-core-0.9.2-incubating.jar&lt;backtype.storm.topology.base(BaseRichBolt.class[BaseRichBolt" modifiers="1057" timestamp="1460293171391"/>
 <typeInfo handle="=storm/lib\/storm-core-0.9.2-incubating.jar&lt;backtype.storm.topology.base(BaseBasicBolt.class[BaseBasicBolt" modifiers="1057" timestamp="1460293171391"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-mapreduce-client-core-2.4.1.jar&lt;org.apache.hadoop.mapreduce(Mapper.class[Mapper" modifiers="33" timestamp="1452501286464"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-mapreduce-client-core-2.4.1.jar&lt;org.apache.hadoop.mapreduce(Reducer.class[Reducer" modifiers="33" timestamp="1452501286464"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.util.bloom(Filter.class[Filter" modifiers="1057" timestamp="1452071363950"/>
-<typeInfo handle="=hadoop1/D:\/jdk1.7\/lib\/rt.jar&lt;sun.dc.pr(PathFiller.class[PathFiller" modifiers="33" timestamp="1447836569977"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.conf(Configured.class[Configured" modifiers="33" timestamp="1452071363950"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.util(Tool.class[Tool" modifiers="1537" timestamp="1452071363950"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-mapreduce-client-core-2.4.1.jar&lt;org.apache.hadoop.mapreduce.lib.input(FileInputFormat.class[FileInputFormat" modifiers="1057" timestamp="1452501286464"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.io(WritableComparator.class[WritableComparator" modifiers="33" timestamp="1452071363950"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.io(Writable.class[Writable" modifiers="1537" timestamp="1452071363950"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.io(WritableComparable.class[WritableComparable" modifiers="1537" timestamp="1452071363950"/>
-<typeInfo handle="=hadoop1/D:\/jdk1.7\/lib\/rt.jar&lt;java.nio.channels(WritableByteChannel.class[WritableByteChannel" modifiers="1537" timestamp="1447836569977"/>
 </typeInfoHistroy>

@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1450608099218_2" label="大数据专区" name="大数据专区">
-<item elementID="=storm-kafka" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hadoop1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=storm-kafka" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hive" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=wc" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hive1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=kafka" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=storm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hbase" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=hive1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=log" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458005117871_3" label="java" name="java">
 <item elementID="=算法" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=设计模式" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=testmvn" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=mvn2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Thread" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=数据结构" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
