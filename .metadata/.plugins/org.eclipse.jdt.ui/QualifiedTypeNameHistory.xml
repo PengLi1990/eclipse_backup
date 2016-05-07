@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.lang.Iterable"/>
-<fullyQualifiedTypeName name="com.buaa.hadoop1.QqRecommend"/>
-<fullyQualifiedTypeName name="com.buaa.hadoop1.QqMapper"/>
-<fullyQualifiedTypeName name="com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider.Text"/>
-<fullyQualifiedTypeName name="com.buaa.hadoop1.QqReducer"/>
-<fullyQualifiedTypeName name="com.google.common.io.LineReader"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapred.LineRecordReader.LineReader"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.util.LineReader"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapred.FileInputFormat"/>
@@ -31,22 +22,16 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper.Context"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
 <fullyQualifiedTypeName name="org.apache.log4j.spi.LoggerFactory"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="org.mortbay.log.Log"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapred.MultiFileInputFormat"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.RecordReader"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapred.lib.MultipleOutputFormat"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.util.ToolRunner"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.OutputCommitter"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.RecordWriter"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.TaskAttemptContext"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
@@ -60,4 +45,19 @@
 <fullyQualifiedTypeName name="com.buaa.testmvn.HelloWorld"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configured"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

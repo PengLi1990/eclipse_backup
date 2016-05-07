@@ -1,7 +1,0 @@
-package com.buaa.hadoop1.weibo;
-
-import org.apache.hadoop.io.WritableComparable;
-
-public class WeiboWritable implements WritableComparable<T> {
-
-}

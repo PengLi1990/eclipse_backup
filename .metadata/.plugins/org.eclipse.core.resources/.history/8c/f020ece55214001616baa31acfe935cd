@@ -1,0 +1,33 @@
+package com.buaa.weibo;
+
+public class MyInt implements Comparable<MyInt> {
+	
+	private Integer value;
+	
+	
+
+	public MyInt(Integer value) {
+		
+		this.value = value;
+	}
+
+
+
+	public Integer getValue() {
+		return value;
+	}
+
+
+
+	public void setValue(Integer value) {
+		this.value = value;
+	}
+
+
+
+	public int compareTo(MyInt o) {
+		
+		return value.compareTo(o.getValue());
+	}
+
+}

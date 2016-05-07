@@ -1,9 +1,0 @@
-package com.buaa.hive1;
-
-public class JdbcClient {
-
-	public static void main(String[] args) {
-
-	}
-
-}

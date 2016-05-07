@@ -40,10 +40,12 @@
 			<item value="com.buaa"/>
 		</list>
 		<list key="package">
+			<item value="com.buaa.weibo"/>
 			<item value="com.buaa.log"/>
 			<item value="com.buaa.wc"/>
 		</list>
 		<list key="artifactId">
+			<item value="weibo"/>
 			<item value="log"/>
 			<item value="wc"/>
 		</list>

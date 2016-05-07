@@ -1,0 +1,5 @@
+package com.buaa.weibo;
+
+public class MyInt implements Comparable<MyInt> {
+
+}
