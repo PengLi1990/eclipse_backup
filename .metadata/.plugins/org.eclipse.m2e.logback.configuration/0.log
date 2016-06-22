@@ -1197,3 +1197,206 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2016-05-07 21:04:50,760 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
 2016-05-07 21:04:50,761 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-05-07 21:04:50,761 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 09:44:40,986 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 09:44:40,996 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 09:44:40,998 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 09:44:40,998 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 09:54:29,974 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 09:54:29,974 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 09:54:29,974 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 09:54:29,974 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:01:19,723 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:01:19,723 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:01:19,723 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:01:19,723 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:02:15,112 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:02:15,112 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:02:15,112 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:02:15,112 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:12:45,298 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:12:45,298 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:12:45,299 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:12:45,299 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:18:22,939 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1-sources.jar
+2016-05-08 10:18:25,305 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1-sources.jar
+2016-05-08 10:18:25,572 [Worker-0] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.hadoop:hadoop-mapreduce-client-core:2.4.1
+2016-05-08 10:18:25,987 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:18:25,987 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\main\resources
+2016-05-08 10:18:25,989 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:18:25,989 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\test\resources
+2016-05-08 10:19:53,319 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:19:53,319 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:19:53,320 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:19:53,320 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:21:47,703 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:21:47,703 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:21:47,705 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:21:47,706 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:22:03,235 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:22:03,236 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:22:03,237 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:22:03,237 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:25:45,436 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:25:45,436 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:25:45,438 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:25:45,438 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:27:29,019 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:27:29,020 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:27:29,021 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:27:29,021 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:27:52,668 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:27:52,668 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:27:52,669 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:27:52,669 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:28:32,263 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:28:32,263 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:28:32,264 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:28:32,264 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:29:18,847 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:29:18,847 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:29:18,848 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:29:18,848 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:31:56,718 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:31:56,719 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:31:56,720 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:31:56,720 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:34:55,017 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:34:55,017 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:34:55,019 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:34:55,019 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:36:26,089 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:36:26,089 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:36:26,090 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:36:26,090 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:36:59,796 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:36:59,796 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:36:59,797 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:36:59,797 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:42:39,287 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:42:39,287 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:42:39,288 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:42:39,288 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:44:29,762 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:44:29,762 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:44:29,763 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:44:29,763 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:44:51,015 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:44:51,015 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:44:51,016 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:44:51,017 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:45:03,052 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:45:03,052 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:45:03,053 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:45:03,053 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:45:10,936 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:45:10,936 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:45:10,937 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:45:10,937 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:46:15,222 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:46:15,222 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:46:15,223 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:46:15,223 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:46:27,244 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:46:27,245 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:46:27,245 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:46:27,246 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-08 10:49:22,072 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:49:22,072 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-08 10:49:22,073 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-08 10:49:22,073 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-10 08:12:25,227 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:25,241 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\main\resources
+2016-05-10 08:12:25,244 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:25,244 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\test\resources
+2016-05-10 08:12:27,043 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:27,044 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\main\resources
+2016-05-10 08:12:27,045 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:27,045 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\test\resources
+2016-05-10 08:12:27,156 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:27,156 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\main\resources
+2016-05-10 08:12:27,158 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:27,158 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\test\resources
+2016-05-10 08:12:27,306 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:27,306 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\main\resources
+2016-05-10 08:12:27,307 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:27,307 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\test\resources
+2016-05-10 08:12:28,140 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:28,140 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\main\resources
+2016-05-10 08:12:28,141 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:28,141 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\test\resources
+2016-05-10 08:12:28,806 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:28,807 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-10 08:12:28,807 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-10 08:12:28,808 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-12 20:09:09,296 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:09,325 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\main\resources
+2016-05-12 20:09:09,328 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:09,328 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\test\resources
+2016-05-12 20:09:13,852 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:13,852 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\main\resources
+2016-05-12 20:09:13,853 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:13,853 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\test\resources
+2016-05-12 20:09:13,947 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:13,947 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\main\resources
+2016-05-12 20:09:13,948 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:13,948 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\test\resources
+2016-05-12 20:09:14,141 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:14,141 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\main\resources
+2016-05-12 20:09:14,142 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:14,142 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\test\resources
+2016-05-12 20:09:15,415 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:15,415 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\main\resources
+2016-05-12 20:09:15,416 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:15,416 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\test\resources
+2016-05-12 20:09:17,286 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:17,287 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-12 20:09:17,288 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-12 20:09:17,288 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-05-21 16:46:50,606 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:50,626 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\main\resources
+2016-05-21 16:46:50,629 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:50,629 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\test\resources
+2016-05-21 16:46:53,678 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:53,679 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\main\resources
+2016-05-21 16:46:53,680 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:53,680 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\test\resources
+2016-05-21 16:46:53,949 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:53,949 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\main\resources
+2016-05-21 16:46:53,950 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:53,950 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\test\resources
+2016-05-21 16:46:54,087 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:54,088 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\main\resources
+2016-05-21 16:46:54,089 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:54,089 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\test\resources
+2016-05-21 16:46:58,308 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:58,308 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\main\resources
+2016-05-21 16:46:58,309 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:46:58,309 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\test\resources
+2016-05-21 16:47:00,940 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:47:00,940 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-05-21 16:47:00,941 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 16:47:00,941 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources
+2016-06-08 17:57:33,028 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:33,050 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\main\resources
+2016-06-08 17:57:33,052 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:33,052 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\log\src\test\resources
+2016-06-08 17:57:33,862 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:33,862 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\main\resources
+2016-06-08 17:57:33,863 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:33,863 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\test_mvn\src\test\resources
+2016-06-08 17:57:33,968 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:33,969 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\main\resources
+2016-06-08 17:57:33,970 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:33,970 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\testmvn\src\test\resources
+2016-06-08 17:57:34,157 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:34,157 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\main\resources
+2016-06-08 17:57:34,158 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:34,158 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\mvn2\src\test\resources
+2016-06-08 17:57:35,539 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:35,540 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\main\resources
+2016-06-08 17:57:35,541 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:35,541 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\wc\src\test\resources
+2016-06-08 17:57:36,570 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:36,571 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\main\resources
+2016-06-08 17:57:36,572 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-08 17:57:36,572 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse\weibo\src\test\resources

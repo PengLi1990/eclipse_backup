@@ -16,6 +16,7 @@
 <item elementID="=算法" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=设计模式" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=testmvn" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Tools" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=mvn2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Thread" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

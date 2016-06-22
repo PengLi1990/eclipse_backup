@@ -13,11 +13,19 @@ import backtype.storm.utils.Utils;
 
 public class RandomWordSpout extends BaseRichSpout {
 	/**
-	 * 
+	 * 数据源
 	 */
 	private static final long serialVersionUID = 1L;
 	private SpoutOutputCollector collector;
 	String[] str = new String[]{"cloud","web","android","ios","java","bigdata","linux"};
+	
+	/*
+	 * 初始化方法，在spout组件实例化时调用一次
+	 */
+	@Override
+	public void open(Map map, TopologyContext tc, SpoutOutputCollector collector) {
+		this.collector = collector;
+	}
 	
 	//不断地往下一个组件发送tuple消息
 	//这里面是该spout组件的核心逻辑
@@ -33,15 +41,7 @@ public class RandomWordSpout extends BaseRichSpout {
 		Utils.sleep(500);
 	}
 
-	/*
-	 * 初始化方法，在spout组件实例化时调用一次
-	 * (non-Javadoc)
-	 * @see backtype.storm.spout.ISpout#open(java.util.Map, backtype.storm.task.TopologyContext, backtype.storm.spout.SpoutOutputCollector)
-	 */
-	@Override
-	public void open(Map map, TopologyContext tc, SpoutOutputCollector collector) {
-		this.collector = collector;
-	}
+	
 
 	//声明本spout组件发送出去的tuple中的数据的字段名
 	@Override

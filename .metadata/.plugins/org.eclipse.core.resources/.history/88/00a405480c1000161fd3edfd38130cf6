@@ -1,7 +1,0 @@
-package com.buaa.stock;
-
-import org.apache.hadoop.hive.ql.exec.UDF;
-
-public class StockMax extends UDF{
-
-}

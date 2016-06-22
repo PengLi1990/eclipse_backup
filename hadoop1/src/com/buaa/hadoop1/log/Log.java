@@ -5,4 +5,10 @@ import org.apache.hadoop.util.Tool;
 
 public class Log extends Configured implements Tool {
 
+	@Override
+	public int run(String[] args) throws Exception {
+		
+		return 0;
+	}
+
 }

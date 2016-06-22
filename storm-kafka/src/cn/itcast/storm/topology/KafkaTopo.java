@@ -40,7 +40,7 @@ public class KafkaTopo {
 		cluster.submitTopology("WordCount", conf, builder.createTopology());
 		
 		//提交topology到storm集群中运行
-//		StormSubmitter.submitTopology("sufei-topo", conf, builder.createTopology());
+//		StormSubmitter.submitTopology("WordCount", conf, builder.createTopology());
 	}
 
 }

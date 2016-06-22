@@ -6290,3 +6290,46 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.core.net 4 0 2016-05-06 20:58:26.341
 !MESSAGE WinHttp.GetProxyForUrl for pac failed with error '²»ÄÜÏÂÔشúÀí·þÎñÆ÷×Զ¯ÅäÖ' #12167.
+!SESSION 2016-05-12 20:08:40.750 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-05-12 20:08:45.024
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 4 0 2016-05-12 20:09:21.273
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error '²»ÄÜÏÂÔشúÀí·þÎñÆ÷×Զ¯ÅäÖ' #12167.
+!SESSION 2016-05-20 09:34:30.965 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 4 0 2016-05-20 09:35:13.701
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error '²»ÄÜÏÂÔشúÀí·þÎñÆ÷×Զ¯ÅäÖ' #12167.
+!SESSION 2016-05-23 11:05:00.412 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 4 0 2016-05-23 11:05:41.619
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error '²»ÄÜÏÂÔشúÀí·þÎñÆ÷×Զ¯ÅäÖ' #12167.
+!SESSION 2016-06-08 17:56:07.132 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 4 0 2016-06-08 17:57:01.734
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error '²»ÄÜÏÂÔشúÀí·þÎñÆ÷×Զ¯ÅäÖ' #12167.

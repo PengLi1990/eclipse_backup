@@ -15,9 +15,6 @@ import backtype.storm.tuple.Tuple;
 
 public class MoreBolt extends BaseBasicBolt {
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	FileWriter fileWriter = null;
 	

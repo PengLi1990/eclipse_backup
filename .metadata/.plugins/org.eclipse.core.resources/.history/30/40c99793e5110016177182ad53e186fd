@@ -1,9 +1,0 @@
-package com.buaa.mvn2;
-
-public class Hello {
-	
-	public String say(String name){
-		HelloWorld hw = new HelloWorld();
-		return hw.say("who");
-	}
-}

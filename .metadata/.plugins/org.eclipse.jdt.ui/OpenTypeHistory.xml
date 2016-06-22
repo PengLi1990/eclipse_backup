@@ -12,7 +12,7 @@
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.io(WritableComparable.class[WritableComparable" modifiers="1537" timestamp="1452071363950"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.conf(Configured.class[Configured" modifiers="33" timestamp="1452071363950"/>
 <typeInfo handle="=hadoop1/lib\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.util(Tool.class[Tool" modifiers="1537" timestamp="1452071363950"/>
+<typeInfo handle="=weibo/D:\/jdk1.7_64\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1457923027235"/>
 <typeInfo handle="=log/E:\/mvn_repo\/repository\/org\/apache\/hadoop\/hadoop-common\/2.4.1\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.conf(Configured.class[Configured" modifiers="33" timestamp="1462365780827"/>
 <typeInfo handle="=log/E:\/mvn_repo\/repository\/org\/apache\/hadoop\/hadoop-common\/2.4.1\/hadoop-common-2.4.1.jar&lt;org.apache.hadoop.util(Tool.class[Tool" modifiers="1537" timestamp="1462365780827"/>
-<typeInfo handle="=weibo/D:\/jdk1.7_64\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1457923027235"/>
 </typeInfoHistroy>

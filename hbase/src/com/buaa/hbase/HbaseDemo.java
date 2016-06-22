@@ -1,8 +1,5 @@
 package com.buaa.hbase;
 
-import java.io.IOException;
-import java.util.List;
-
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.Cell;
 import org.apache.hadoop.hbase.HBaseConfiguration;

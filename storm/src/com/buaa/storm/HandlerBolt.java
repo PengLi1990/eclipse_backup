@@ -13,9 +13,6 @@ import backtype.storm.tuple.Values;
  */
 public class HandlerBolt extends BaseBasicBolt {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	//业务处理逻辑
